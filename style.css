@@ -1,0 +1,42 @@
+/* 絵本風のスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.book {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.page {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.page p {
+    margin-bottom: 10px;
+}
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3e8e41;
+}
